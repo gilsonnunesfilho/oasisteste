@@ -1,2 +1,0 @@
-# oasisteste
-Simple test
