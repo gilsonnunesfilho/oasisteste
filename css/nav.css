@@ -1,0 +1,35 @@
+
+/* ------------------------
+------- NAVIGATION --------
+-------------------------*/
+
+.bottom_nav {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  height: 3.5em;
+  background-color: #3E759B;
+}
+
+.bottom_nav-tab {
+  display: flex;
+  padding: 6px;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 25vw;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+}
+
+.bottom_nav-tab--active { color: #fff; }
+
+.bottom_nav-tab--active .tab-text { font-size: 14px; }
+
+.tab-text { 
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tab-icon { height: 24px; }
